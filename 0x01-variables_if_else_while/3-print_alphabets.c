@@ -16,10 +16,10 @@ int main(void)
 		ch++;
 	}
 	/*prints A * Z*/
-	while (ch <= 'z')
+	while (ch <= 'Z')
 	{
 	putchar(CH);
-		CH++;
+	CH++;
 	}
 	putchar('\n');
 	return (0);
