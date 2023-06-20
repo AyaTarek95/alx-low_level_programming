@@ -1,17 +1,15 @@
 #include "main.h"
 /**
-*main - entry point
-*Description: print_alphabet using _putchar function to print
-*						the alphabet a_z
-*return : 0 (success)
-*/
+ * print_alphabet - Does 1, 2, 3
+ * Return: Returns whatever
+ */
 
 void print_alphabet(void)
 {
-	char letter;
+	int ch;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
-		_putchar(letter);
-		_putchar('\n');
-		return (0);
+	for (ch = 'a'; ch <= 'z'; ch++)
+		_putchar(ch);
+	_putchar('\n');
+	return (0);
 }
