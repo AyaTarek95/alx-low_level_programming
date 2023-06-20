@@ -1,7 +1,11 @@
 #include <stdio.h>
-#include <main.h>
-int main(void)
+#include "main.h"
+/**
+ * main - entry point
+ * Description: print putchar
+ * Return: 0 (success)
+*/
+int putchar(char c)
 {
-	putchar('\n');
-	return (0);
+	return (write(1, &c, 1));
 }
