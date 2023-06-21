@@ -7,7 +7,7 @@
  */
 void print_times_table(int n)
 {
-	int num, multi, prod, n;
+	int num, multi, prod;
 
 	if (n <= 15 && n >= 0)
 	{
@@ -39,3 +39,4 @@ void print_times_table(int n)
 				_putchar('\n');
 		}
 	}
+}
