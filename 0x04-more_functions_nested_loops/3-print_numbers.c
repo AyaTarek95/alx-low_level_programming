@@ -1,13 +1,14 @@
+#include "main.h"
+​
 /**
- * (function_name) - Short description, single line
- * @(Variable): Description of parameter x
- *
- * Return: Description of the returned value
+ * print_numbers - prints from 0~9
+ * Return: Returns 1 if upper, else 0
  */
 void print_numbers(void)
 {
-	int n = 0;
-	if (n <= 0 || n <= 9; n++)
-		_putchar(n + 48);
-	_putchar(\n);
+	int i;
+	for (i = 0; i < 10; i++)
+	printf("%d", i);
+
+	printf("\n");
 }
