@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * print_diagonal - prints
  * @n: number of _
  * Return: None
  */
-
 void print_diagonal(int n)
 {
 	int i, j;
