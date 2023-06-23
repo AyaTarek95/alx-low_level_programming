@@ -1,14 +1,10 @@
-include "main.h"
+#include "main.h"
 /**
- * _isupper - Short description, single line
- * @c: Description of parameter x
- *
- * Return: Description of the returned value
+ * _isupper - returns 1 if uppercase
+ * @c: Char given
+ * Return: Returns 1 if upper, else 0
  */
 int _isupper(int c)
 {
-	if (c >= 65 && c <= 90)
-		return (1);
-	else
-		return (0);
+	return (c > 64 && c < 91);
 }
