@@ -10,6 +10,6 @@ void print_rev(char *s)
 	int i = strlen(s) - 1;
 
 	while (i >= 0)
-	printf("%c", *(s + i--));
-	printf("\n");
+	printf('%c', *(s + i--));
+	printf('\n');
 }
