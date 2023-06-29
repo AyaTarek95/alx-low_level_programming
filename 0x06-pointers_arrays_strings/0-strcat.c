@@ -8,7 +8,5 @@
  */
 char *_strcat(char *dest, char *src)
 {
-
-	ptr = _strcat(dest, src);
 	return (strcat(dest, src));
 }
