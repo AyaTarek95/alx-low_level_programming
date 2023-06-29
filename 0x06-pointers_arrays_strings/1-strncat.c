@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _strncat  - Short description, single line
  * @dest: desc
