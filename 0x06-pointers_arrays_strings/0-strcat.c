@@ -2,10 +2,11 @@
 
 /**
  * _strcat  - Short description, single line
- * @src: Description of parameter x
- * @dest : desc
+ * @dest: desc
+ * @src: source
  * Return: return dest
  */
+
 char *_strcat(char *dest, char *src)
 {
 	return (strcat(dest, src));
