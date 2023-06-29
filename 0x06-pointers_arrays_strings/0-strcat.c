@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
  * _strcat  - Short description, single line
  * @src: Description of parameter x
@@ -11,4 +11,5 @@ char *_strcat(char *dest, char *src)
 	char *ptr;
 
 	ptr = _strcat(dest, src);
+	return (dest);
 }
