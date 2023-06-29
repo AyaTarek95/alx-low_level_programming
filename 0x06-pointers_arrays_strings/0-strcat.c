@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * _strcat  - Short description, single line
  * @src: Description of parameter x
