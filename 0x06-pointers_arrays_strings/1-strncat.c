@@ -2,6 +2,7 @@
  * _strncat  - Short description, single line
  * @dest: desc
  * @src: source
+ * @n : 3rd
  * Return: return dest
  */
 
