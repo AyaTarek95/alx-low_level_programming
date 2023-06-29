@@ -3,7 +3,7 @@
 *reverse_array - Entry point
 *
 *@a: A C program that prints with put function
-*@n:
+*@n:2nd
 *Return: Always 0 (success)
 */
 void reverse_array(int *a, int n)
