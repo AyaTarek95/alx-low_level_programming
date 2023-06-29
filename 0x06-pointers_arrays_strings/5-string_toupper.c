@@ -1,11 +1,11 @@
 #include "main.h"
 /**
- * string_toupper - Short description, single line
- * @str: Description of parameter x
- * @'': 1st
+ * string_toupper - Short description
+ * @str: 2nd
+ *
  * Return: Descrip
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 
 {
 	int i;
