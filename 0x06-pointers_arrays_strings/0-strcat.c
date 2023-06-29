@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+
 /**
  * _strcat  - Short description, single line
  * @src: Description of parameter x
@@ -12,5 +12,5 @@ char *_strcat(char *dest, char *src)
 	char src[] = "World!\n";
 	char *ptr;
 
-	ptr = strcat(dest, src);
+	ptr = _strcat(dest, src);
 }
