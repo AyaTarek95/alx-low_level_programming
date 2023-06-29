@@ -19,4 +19,5 @@ if (s[j] == a[i])
 s[j] = b[i];
 }
 }
+return (s);
 }
