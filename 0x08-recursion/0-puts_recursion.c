@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts_recursion
+ * _puts_recursion - Short description, single line
  * @s: 1st
  * return : zero
  */
