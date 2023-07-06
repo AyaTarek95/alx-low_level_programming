@@ -1,33 +1,29 @@
 #include "main.h"
 /**
- * is_prime_number - determine if a number is a prime number
- * @n: int number
- * Return: 1 if prime, 0 otherwise
+ * support_function - description
+ * @number:1st
+ * @root:2nd
+ * Return: always 0
  */
-
-int is_prime_number(int n)
+int support_function(int number, int root)
 {
-if (n < 2)
-return (0);
-if (n < 4)
-return (1);
-return (hai(n, 2));
+	if ((root * root) > number)
+	return (-1);
+	else if ((root * root) == number)
+	return (root);
+	else
+	return (support_function(number, root + 1));
 }
 
 /**
- * _sqrt - return square root of number
- * @x: number
- * @i: number incrementer acting as divisor
- * Return: square root of `x`
+ * _sqrt_recursion - description
+ * @n:3rd
+ * Return: always 0
  */
-
-int _sqrt(int x, int i)
+int _sqrt_recursion(int n)
 {
-int square;
-
-square = i * i;
-	if (square >= x)
-return (i);
-else
-return (_sqrt(x, i + 1));
+	if (n < 0)
+	return (-1);
+	else
+	return (support_function(n, 0));
 }
