@@ -15,6 +15,6 @@ int support_function(int number, int root);
 int hai(int n, int d);
 int _sqrt(int x, int i);
 int get_length(char *s);
-int my_fn(char *s, int l);
+int my_pal(char *s, int l);
 
 #endif
