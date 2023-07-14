@@ -19,10 +19,11 @@ char *a;
 	s2 = "";
 
 	for (s1_len = 0; s1[s1_len] != '\0'; s1_len++)
-
+	;
 	for (s2_len = 0; s2[s2_len] != '\0'; s2_len++)
-
+	;
 	a = malloc(s1_len + n + 1);
+
 	if (a == NULL)
 	return (NULL);
 
@@ -30,7 +31,8 @@ char *a;
 	a[i] = s1[i];
 
 	for (j = 0; j < n; j++)
-	{a[i] = s2[j];
+	{
+		a[i] = s2[j];
 	i++;
 }
 	a[i] = '\0';
