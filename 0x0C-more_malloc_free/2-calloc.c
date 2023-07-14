@@ -8,16 +8,16 @@
  *
  * Return: pointer to the allocated memory.
  */
-void *_calloc(unsigned int num, unsigned int size)
+void *_calloc(unsigned int nmemb, unsigned int size)
 {
 	char *a;
-	unsigned int b;
-	if (num == 0 || size == 0)
+	unsigned int j;
+	if (nmemb == 0 || size == 0)
 		return (NULL);
-	a = malloc(num * size);
+	a = malloc(nmemb * size);
 	if (a == NULL)
 		return (NULL);
-	for (b = 0; b < (num * size); b++)
-		a[b] = 0;
+	for (j = 0; j < (nmemb * size); j++)
+		a[j] = 0;
 	return (a);
 }
