@@ -37,11 +37,11 @@ char *_strcpy(char *dest, char *scr)
 return (dest);
 }
 /**
- * new_dog: creates new dog variable
+ * new_dog -  creates new dog variable
  * @name: dog's name
  * @owner: dog's owner name
  * @age: age of the dog
- * return: pointer to new dog variable
+ * Return: pointer to new dog variable
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
@@ -50,23 +50,25 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	new_dog1 = malloc(sizeof(dog_t));
 	if (new_dog1 == NULL)
-	{	return (NULL);
-	}
-		new_dog1->name  = malloc(sizeof(char) * (len1 + 1));
-	if (new_dog1->name == NULL)
-	{		free(new_dog1);
+	{
 		return (NULL);
-}
+	}
+		new_dog1->name = malloc(sizeof(char) * (len1 + 1));
+	if (new_dog1->name == NULL)
+	{
+		free(new_dog1);
+		return (NULL);
+	}
 	new_dog1->owner = malloc(sizeof(char) * (len2 + 1));
 	if (new_dog1->owner == NULL)
-	{		free(new_dog1);
+	{
+		free(new_dog1);
 		free(new_dog1->name);
 		return (NULL);
-}
+	}
 	_strcpy(new_dog1->name, name);
 	_strcpy(new_dog1->owner, owner);
 	new_dog1->age = age;
+
 	return (new_dog1);
 }
-
-
