@@ -2,7 +2,7 @@
 /**
  * _strlen - calculates function length
  * @s: string which get its length calculated
- * retur: s length
+ * Return: s length
  */
 int _strlen(char *s)
 {
@@ -48,7 +48,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t *new_dog1;
 	int len1 = _strlen(name), len2 = _strlen(owner);
 
-	new_dog1 =malloc(sizeof(dog_t));
+	new_dog1 = malloc(sizeof(dog_t));
 	if (new_dog1 == NULL)
 	{	return (NULL);
 	}
@@ -62,7 +62,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 	{		free(new_dog1);
 		free(new_dog1->name);
 		return (NULL);
-}	
+}
 	_strcpy(new_dog1->name, name);
 	_strcpy(new_dog1->owner, owner);
 	new_dog1->age = age;
