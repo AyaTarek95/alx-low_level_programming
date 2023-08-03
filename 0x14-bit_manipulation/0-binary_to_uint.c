@@ -1,6 +1,4 @@
 #include "main.h"
-#include <string.h>
-
 /**
  * binary_to_uint - convert binary to unsigned number
  * @b: number to be converted
