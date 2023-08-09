@@ -1,18 +1,19 @@
 #include "main.h"
-
 /**
- * more_numbers - prints from 0~14 total 10 times
- * Return: None
+ * print_most_numbers - print no. except 2 & 4
+ * Return: void
  */
-void more_numbers(void)
+void print_most_numbers(void)
 {
-	int i, j;
+	int i;
 
-	for (i = 0; i < 10; i++)
+	for (i = 0; i <= 9; i++)
 	{
-	for (j = 0; j <= 14; j++)
-		printf("%d", j);
-
-		printf("\n");
+		if (i == 2 || i == 4)
+		{
+			i++;
+		}
+		_putchar(i + 48);
 	}
+	_putchar('\n');
 }
