@@ -1,12 +1,17 @@
 #!/usr/bin/python3
 """
-island_perimeter
+Define island_perimeter method
 """
 
 
 def island_perimeter(grid):
     """return perimeter of  island in grid
+    1 reprsents land and 0 is the water in grid
 
+    Args:
+        grid (list): List of list of ints represents an island.
+    Returns:
+        Perimeter of the the island
     """
     count = 0
 
